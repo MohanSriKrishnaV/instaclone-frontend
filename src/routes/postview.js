@@ -14,7 +14,7 @@ const Postview = () => {
     const [data, setdata] = useState([]);
 
     const showPosts = async () => {
-        const resp = await fetch('http://localhost:8080/api')
+        const resp = await fetch('https://instaclone-project-ajw2.onrender.com/api')
         setdata(await resp.json())
 
     }
@@ -41,7 +41,9 @@ const Postview = () => {
                             <li className="author">{post?.author}</li>
                             <li className="location">{post?.location}</li>
                         </div>
-                        <div className="more-icons"><img src={"./assets/more_icon.svg"} alt="more_icons"></img></div>                        <li className="pic"><img src={`http://localhost:8080/images/${post.image_file}`} alt="none" className="image" /></li>
+                        <div className="more-icons">
+                            <img src={"./assets/more_icon.svg"} alt="more_icons"></img></div>
+                        <li className="pic"><img src={`https://instaclone-project-ajw2.onrender.com/images/${post.image_file}`} alt="none" className="image" /></li>
                         <div className="like-share">
                             <li className="heart"><img src={"./assets/heart.png"} alt="heart"></img></li>
                             <li className="share"><img src={"./assets/share.png"}></img></li>

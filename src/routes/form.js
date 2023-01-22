@@ -18,7 +18,7 @@ const Form = () => {
         formData.append("image_file", imageFile)
         formData.append("description", description)
 
-        fetch("http://localhost:8080/api/post", {
+        fetch("https://instaclone-project-ajw2.onrender.com/api/post", {
             method: 'POST',
             body: formData
         })
