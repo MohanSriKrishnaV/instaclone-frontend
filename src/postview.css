@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+#instaclone {
+    text-align: left;
+    font: normal normal normal 64px/85px Palatino;
+    letter-spacing: 0px;
+    color: #006238;
+    opacity: 1;
+}
+
+#logo {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+#siteheader {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid black;
+
+}
+
+#camera {
+    margin-top: 20px;
+}
+
+#post-box {
+    width: 500px;
+    height: fit-content;
+    margin-left: 400px;
+    font-size: larger;
+    font-weight: bolder;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #707070;
+    border-radius: 10px;
+    opacity: 1;
+    background: 0% 0% no-repeat padding-box;
+
+
+    border: 0.1px black solid;
+    list-style: none;
+
+}
+
+
+/*  */
+.date {
+    margin-left: 250px;
+    margin-top: 7px;
+    font-size: 125%;
+    text-align: left;
+    font: normal normal normal 20px/24px Verdana;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+
+.pic {
+    height: 320px;
+    width: 480px;
+    border: 1px solid #707070;
+    opacity: 1;
+    margin: auto;
+}
+
+.image {
+    max-height: 320px;
+    min-height: 320px;
+    max-width: 480px;
+    min-width: 480px;
+}
+
+.camera {
+    height: 50px;
+    margin-left: 300px;
+    margin-top: 10px;
+    padding-top: 0;
+}
+
+.like-share {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    width: 100px;
+    margin-left: 25px;
+}
+
+.loc {
+    padding: 0;
+    margin-left: 50px;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: grey;
+}
+
+.heart {
+    margin: 7px;
+}
+
+
+.description {
+    text-align: left;
+    font: normal normal bold 28px/32px Helvetica;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+
+.author {
+    text-align: left;
+    font: normal normal bold 28px/32px Helvetica;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.location {
+    text-align: left;
+    font: normal normal normal 24px/29px Verdana;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+}
+
+.share {
+    width: 32px;
+    height: 32px;
+    margin: 7px;
+    margin-left: 25px;
+}
+
+.more-icons {
+    /* UI Properties */
+    opacity: 1;
+    top: -50px;
+    left: 455px;
+    width: 8px;
+    height: 8px;
+    position: relative;
+}
+
+.likes {
+    text-align: left;
+    font: normal normal normal 20px/24px Verdana;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+    margin: 2px;
+    margin-top: 10px;
+}
+
+.top-left {
+    margin-left: 15px;
+}
+
+.bottom-left {
+    margin-left: 15px;
+}

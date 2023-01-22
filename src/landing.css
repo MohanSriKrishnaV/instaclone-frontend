@@ -1,0 +1,27 @@
+#landing {
+
+    display: flex;
+
+}
+
+#landingleft {
+    margin-top: 300px;
+    margin-left: 100px;
+}
+
+#header-landing {
+    height: 600px;
+    margin-left: 300px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+
+#enter {
+    margin-top: 10px;
+    margin-left: 50px;
+    border: 3px solid #006238;
+    border-radius: 8px;
+    opacity: 1;
+    font: 50px
+}
